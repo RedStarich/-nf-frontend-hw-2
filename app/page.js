@@ -1,7 +1,7 @@
 // pages/index.js
 'use client';
 import React, { useState } from 'react';
-import TaskList from './components/TaskList/TaskList';
+import TaskList from './components/TaskList';
 
 export default function Home() {
   const [tasks, setTasks] = useState([]); // Initialize tasks as an empty array
